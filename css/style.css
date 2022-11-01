@@ -214,7 +214,7 @@ section{
     background:url(../images/logo8.jpg) no-repeat ; 
      background-size: cover;
     background-position: center ;
-    animation: home 3s infinite;
+   
 }
 
 .home .content{
@@ -645,24 +645,4 @@ section{
         font-size: 50%;
     }
 
-}
-@keyframes home{
-    0%{
-        transform: translateY(-30px);
-
-    }
-    30%{
-        transform: translateY(-10px);
-    }
-    50%{
-        transform: rotate(-20deg);
-
-    }
-    75%{
-        transform: rotate(-2deg);
-
-    }
-    100%{
-        transform: translateY(20px);
-    }
 }
